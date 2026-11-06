@@ -2,9 +2,9 @@
 
 > Đổi tên file này thành `MSSV_HoTen.md` của bạn, ví dụ `2A20260000_NguyenVanAn.md`, rồi điền từng mục. Xoá các dòng hướng dẫn in nghiêng khi xong.
 
-- **MSSV:**
-- **Họ và tên:**
-- **SEED** (in ở ô đầu notebook):
+- **MSSV:**2A202603397
+- **Họ và tên:**Võ Huy Hoàng
+- **SEED** (in ở ô đầu notebook):9957
 
 ## 1. Bằng chứng
 
@@ -17,14 +17,17 @@
 ## 2. Kết quả chính
 
 *Chép bảng so sánh cuối Phần 5 (F1 test, F1 SUB 40, p95 ms/tin, USD/1k tin) của chính bạn.*
-
+em bị limitrate :<
 ## 3. Dự đoán và thực tế
 
 *Chọn 3 dự đoán `predict(...)` lệch nhiều nhất so với kết quả. Mỗi cái: bạn đoán gì, ra gì, vì sao lệch.*
+1.B : lr = 0.001 hội tụ thay vì dao động
+3.B : 2 mô hình ngang nhau
 
 ## 4. Phân tích 50 case khó
 
 *Model nào tụt nhiều nhất, ở nhóm case nào? Nêu 2 case cụ thể và cơ chế khiến model sai.*
+BoW + Logistic Regression tụt nhiều nhất
 
 ## 5. Thử thách cá nhân
 
